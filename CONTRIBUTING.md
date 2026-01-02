@@ -1,6 +1,6 @@
-# Contributing to IOE Student Utils
+# Contributing to the repo
 
-Thank you for your interest in contributing to IOE Student Utils! We welcome contributions from the community to help improve this project.
+Thank you for your interest in contributing to the repo! We welcome contributions from the community to help improve this project.
 
 ## How to Contribute
 
@@ -12,17 +12,17 @@ A fork is your own copy of the project on GitHub where you can make changes with
 
 1. **Sign in to GitHub**: If you don't have a GitHub account, create one at [github.com](https://github.com). Sign in to your account.
 
-2. **Go to the Repository**: Visit the main repository page: [https://github.com/Shrest4647/ioe-student-utils](https://github.com/Shrest4647/ioe-student-utils).
+2. **Go to the Repository**: Visit the main repository page: [https://github.com/Shrest4647/nextjs-elysia-betterauth-starter](https://github.com/Shrest4647/nextjs-elysia-betterauth-starter).
 
 3. **Fork the Repository**: Click the "Fork" button in the top-right corner of the page. This creates a copy of the repository under your GitHub account.
 
-4. **Clone Your Fork**: After forking, you'll be redirected to your fork's page. Click the green "Code" button and copy the URL (it should look like `https://github.com/your-username/ioe-student-utils.git`).
+4. **Clone Your Fork**: After forking, you'll be redirected to your fork's page. Click the green "Code" button and copy the URL (it should look like `https://github.com/your-username/nextjs-elysia-betterauth-starter.git`).
 
    Now, open your terminal (Command Prompt on Windows, Terminal on Mac/Linux) and run:
 
    ```bash
-   git clone https://github.com/your-username/ioe-student-utils.git
-   cd ioe-student-utils
+   git clone https://github.com/your-username/nextjs-elysia-betterauth-starter.git
+   cd nextjs-elysia-betterauth-starter
    ```
 
    This downloads the code to your computer and enters the project folder. If you don't have Git installed, download it from [git-scm.com](https://git-scm.com).
@@ -128,10 +128,9 @@ A pull request (PR) is a proposal to merge your changes into the main project. A
    Replace `feature/your-feature-name` with the name of your branch (from step 3).
 
 4. **Create the Pull Request**:
-
-   - Go to your fork on GitHub (https://github.com/your-username/ioe-student-utils).
+   - Go to your fork on GitHub (https://github.com/your-username/nextjs-elysia-betterauth-starter).
    - Click the "Compare & pull request" button (it might appear after pushing, or click "Pull requests" tab and "New pull request").
-   - Ensure the base repository is `Shrest4647/ioe-student-utils` and base branch is `main`.
+   - Ensure the base repository is `Shrest4647/nextjs-elysia-betterauth-starter` and base branch is `main`.
    - The head repository should be your fork and head branch your feature branch.
    - Fill in the title and description: Explain what your changes do, why they're needed, and any related issues (e.g., "Fixes #123").
    - Enable the checkbox to allow maintainer edits (so we can make small changes if needed).

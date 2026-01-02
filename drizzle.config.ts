@@ -8,5 +8,5 @@ export default {
   dbCredentials: {
     url: appEnv.DATABASE_URL,
   },
-  tablesFilter: ["ioesu_*"],
+  tablesFilter: ["project_*"],
 } satisfies Config;
