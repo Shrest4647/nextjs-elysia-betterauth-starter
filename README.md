@@ -72,6 +72,14 @@ This project includes specific instructions for AI agents (Gemini, Claude, Copil
     bun dev
     ```
 
+## OpenAPI Documentation
+
+The API documentation is available at `/api/docs` when the server is running.
+
+## Contributing
+
+Contributions are welcome! Please refer to the [Contributing Guidelines](CONTRIBUTING.md) to get started. You can also open an issue or submit a pull request for any improvements or bug fixes.
+
 ## Roadmap
 
 - [ ] Add support for Civil, Mechanical, Electrical and Electronics Engineering.
