@@ -10,7 +10,7 @@ export const openApiPlugin = openapi({
       { name: "Auth", description: "Authentication endpoints" },
     ],
     info: {
-      title: "IOESU Documentation",
+      title: "Documentation",
       version: "1.0.0",
     },
   },

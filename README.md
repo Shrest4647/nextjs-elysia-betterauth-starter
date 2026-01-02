@@ -1,13 +1,6 @@
-# IOE Student Utils
+# Nextjs Elysia Better Auth Starter
 
-**IOE Student Utils** is an open-source web portal designed to help students from the Institute of Engineering (IOE), Tribhuvan University, bridge the gap between local academic systems and international standards.
-
-## Features
-
-- **Credit Calculator**: Automatically converts Lecture, Tutorial, and Practical hours into standard credit hours used by US/European universities.
-- **Syllabus Explorer**: Detailed breakdown of chapters, sub-topics, and marks distribution (Internal vs. Final) for BCT (Bachelor of Computer Engineering).
-- **GPA Estimator**: Estimates a US 4.0 GPA equivalent based on TU percentage scores using WES/Scholaro logic.
-- **Report Generation**: Export your selected subject list and credit summary as a professional PDF for applications.
+**This** is an open-source starter template for building full-stack applications with Next.js, Elysia, and Better Auth.
 
 ## Tech Stack
 
@@ -31,8 +24,8 @@ This project includes specific instructions for AI agents (Gemini, Claude, Copil
 1.  **Clone the repository**
 
     ```bash
-    git clone https://github.com/Shrest4647/ioe-student-utils.git
-    cd ioe-student-utils
+    git clone https://github.com/Shrest4647/nextjs-elysia-betterauth-starter.git project_name
+    cd project_name
     ```
 
 2.  **Install dependencies**
@@ -79,11 +72,6 @@ The API documentation is available at `/api/docs` when the server is running.
 ## Contributing
 
 Contributions are welcome! Please refer to the [Contributing Guidelines](CONTRIBUTING.md) to get started. You can also open an issue or submit a pull request for any improvements or bug fixes.
-
-## Roadmap
-
-- [ ] Add support for Civil, Mechanical, Electrical and Electronics Engineering.
-- [ ] Add dark mode.
 
 ## License
 

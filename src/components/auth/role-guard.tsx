@@ -24,7 +24,7 @@ export function RoleGuard({
 
   useEffect(() => {
     if (!isLoading && isAuthenticated && user) {
-      const userRole = user.role || "customer";
+      const userRole = user.role || "anonymous";
       if (!allowedRoles.includes(userRole)) {
         router.push(redirectTo);
       }
@@ -39,7 +39,7 @@ export function RoleGuard({
     return null;
   }
 
-  const userRole = user?.role || "customer";
+  const userRole = user?.role || "anonymous";
   if (!allowedRoles.includes(userRole)) {
     return fallback || null;
   }
