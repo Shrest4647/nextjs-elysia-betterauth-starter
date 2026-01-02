@@ -7,7 +7,7 @@ export const elysiaApi = new Elysia({ prefix: "/api" })
   .use(corsPlugin)
   .use(betterAuthPlugin)
   .use(openApiPlugin)
-  .get("/", () => "👋 Hello from IOESU", {
+  .get("/", () => "👋 Hello from Elysia!", {
     detail: {
       tags: ["App"],
     },

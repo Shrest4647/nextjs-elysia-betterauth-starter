@@ -1,4 +1,4 @@
-# AI Instructions for ioe-student-utils
+# AI Instructions
 
 This document provides comprehensive guidelines for AI agents (Gemini, Claude, Copilot, Kilo Code, etc.) working on this project.
 
