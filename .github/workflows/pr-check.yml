@@ -1,0 +1,29 @@
+name: PR Check
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Run formatting and linting check
+        run: |
+          bun run check
+          echo "✅ Formatting and linting check passed"
+
+      - name: Run type check
+        run: |
+          bun run typecheck
+          echo "✅ Type check passed"
